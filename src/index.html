@@ -25,35 +25,59 @@
         </div>
 
         <div class="flex flex-grow rounded-2xl">
-          <div class="sidebar flex flex-col rounded-l-2xl bg-white/30 backdrop-blur-lg p-5">
-            <div class="sidebar-nav flex flex-col items-center">
-              <i class="fa fa-heart"></i>
-              <i class="fa fa-heart"></i>
-              <i class="fa fa-heart"></i>
+          <div class="sidebar flex flex-col justify-between space-y-10 rounded-l-2xl bg-white/30 backdrop-blur-lg p-5">
+            <img src="images/Logonetflix.png" class="w-35">
+            <div class="sidebar-nav flex flex-col space-y-5">
+              <span class="fa fa-circle"> Browse</span>
+              <span class="fa fa-heart"> Wishlist</span>
+              <span class="fa fa-calendar"> Coming Soon</span>
             </div>
 
-            <div class="new-trailers flex flex-col">
+            <div class="new-trailers flex flex-col space-y-5">
               <h2>New Trailers</h2>
-              <div>
-                movie trailer
+
+              <div class="movie-show rounded-lg bg-[url(images/vader.jpg)] bg-cover overflow-hidden">
+                <div class="bg-gray-700/20 backdrop-blur-lg p-2 flex justify-between items-center mt-20">
+                  <div>
+                    <p class="text-xs">Show name here</p>
+                  </div>
+                  <i class="fa fa-play text-xs bg-white/20 p-1.5 rounded-full"></i>
+                </div>
               </div>
-              <div>
-                movie trailer
+
+              <div class="movie-show rounded-lg bg-[url(images/vader.jpg)] bg-cover overflow-hidden">
+                <div class="bg-gray-700/20 backdrop-blur-lg p-2 flex justify-between items-center mt-20">
+                  <div>
+                    <p class="text-xs">Show name here</p>
+                  </div>
+                  <i class="fa fa-play text-xs bg-white/20 p-1.5 rounded-full"></i>
+                </div>
               </div>
-              <div>
-                movie trailer
+
+              <div class="movie-show rounded-lg bg-[url(images/vader.jpg)] bg-cover overflow-hidden">
+                <div class="bg-gray-700/20 backdrop-blur-lg p-2 flex justify-between items-center mt-20">
+                  <div>
+                    <p class="text-xs">Show name here</p>
+                  </div>
+                  <i class="fa fa-play text-xs bg-white/20 p-1.5 rounded-full"></i>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="flex-grow rounded-r-2xl bg-white/20 backdrop-blur-lg border-slate-50/30 p-5">
+          <div class="flex flex-col justify-between flex-grow rounded-r-2xl bg-white/20 backdrop-blur-lg border-slate-50/30 p-5">
             <div class="search-header flex justify-between">
-              <input class="bg-white/20 rounded-full p-3" type="text" placeholder="Search...">
+              <div>
+                <span class="fa fa-angle-left"></span>
+                <span class="fa fa-angle-right"></span>
+                <input class="bg-white/20 rounded-full p-3" type="text" placeholder="Search...">
+              </div>
               <div class="prof-header">
                 <i class="fa fa-bell"></i>
               </div>
             </div>
-            <div class="featured rounded-2xl bg-[url(images/banner.jpg)] p-5">
+
+            <div class="featured rounded-2xl bg-[url(images/banner.jpg)] p-5 mb-5">
               <div>
                 <h1>SHOW<br>
                 NAME</h1>
@@ -72,20 +96,72 @@
               </div>
             </div>
 
+            
             <h2>Popcorn Mania</h2>
-            <div class="popcorn-mania flex space-x-4">
-              <div class="movie-show">content</div>
-              <div class="movie-show">content</div>
-              <div class="movie-show">content</div>
-              <div class="movie-show">content</div>
+            <div class="popcorn-mania grid grid-cols-4 gap-4 mb-5">
+
+              <div class="movie-show rounded-lg bg-[url(images/szeth.jpg)] bg-cover">
+                <div class="bg-black/70 rounded-b-lg p-2 flex justify-between items-center mt-30">
+                  <div>
+                    <p>Truthless</p>
+                    <p class="text-xs">2020 ... 5 Seasons</p>
+                  </div>
+                  <i class="fa fa-ellipsis-h"></i>
+                </div>
+              </div>
+
+              <div class="movie-show rounded-lg bg-[url(images/vader.jpg)] bg-cover">
+                <div class="bg-black/70 rounded-b-lg p-2 flex justify-between items-center mt-30">
+                  <div>
+                    <p>Vader</p>
+                    <p class="text-xs">2020 ... 5 Seasons</p>
+                  </div>
+                  <i class="fa fa-ellipsis-h"></i>
+                </div>
+              </div>
+
+              <div class="movie-show rounded-lg bg-[url(images/hyde.jpg)] bg-cover">
+                <div class="bg-black/70 rounded-b-lg p-2 flex justify-between items-center mt-30">
+                  <div>
+                    <p>Hyde</p>
+                    <p class="text-xs">2020 ... 5 Seasons</p>
+                  </div>
+                  <i class="fa fa-ellipsis-h"></i>
+                </div>
+              </div>
+
+              <div class="movie-show rounded-lg bg-[url(images/astrid.jpg)] bg-cover">
+                <div class="bg-black/70 rounded-b-lg p-2 flex justify-between items-center mt-30">
+                  <div>
+                    <p>Astrid</p>
+                    <p class="text-xs">2020 ... 5 Seasons</p>
+                  </div>
+                  <i class="fa fa-ellipsis-h"></i>
+                </div>
+              </div>
             </div>
 
             <h2>Continue Watching</h2>
-            <div class="continue-watching flex space-x-4">
-              <div class="movie-show">content</div>
-              <div class="movie-show">content</div>
-              <div class="movie-show">content</div>
-              <div class="movie-show">content</div>
+            <div class="continue-watching grid grid-cols-4 gap-4">
+              <div class="movie-show bg-amber-500 rounded-lg bg-[url(images/fives.jpg)] bg-cover p-2">
+                <p class="mt-20">Fives</p>
+                <div class="p-0.5 bg-red-700"></div>
+              </div>
+
+              <div class="movie-show bg-amber-500 rounded-lg bg-[url(images/hyde2.jpg)] bg-cover p-2">
+                <p class="mt-20">Potions</p>
+                <div class="p-0.5 bg-red-700"></div>
+              </div>
+
+              <div class="movie-show bg-amber-500 rounded-lg bg-[url(images/kal.jpg)] bg-cover p-2">
+                <p class="mt-20">Highstorm Shenanigans</p>
+                <div class="p-0.5 bg-red-700"></div>
+              </div>
+
+              <div class="movie-show bg-amber-500 rounded-lg bg-[url(images/city.jpg)] bg-cover p-2">
+                <p class="mt-20">City of Bells</p>
+                <div class="p-0.5 bg-red-700"></div>
+              </div>
             </div>
           </div>
 
