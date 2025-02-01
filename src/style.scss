@@ -1,7 +1,25 @@
 @import url(output.css);
 
+.fa-bell:hover {
+    background-color: #c10007;
+    cursor: pointer;
+}
+
 .featured-title{ 
     font-family: "Kings", serif;
      font-weight: 400;
     font-style: normal;
 }
+
+.movie-show:hover {
+    cursor: pointer;
+}
+
+/*.popcorn-mania {
+    .movie-show:hover {
+        div {
+            height: 50%;
+            margin-top: 10px;
+        }
+    }
+}*/
