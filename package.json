@@ -1,0 +1,22 @@
+{
+  "name": "netflix-mockup",
+  "version": "1.0.0",
+  "description": "A Tailwind practice project. Mostly Tailwind was used to present the design shown, with minimal SCSS for a few elements.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mckayRawlins/Netflix-mockup.git"
+  },
+  "author": "miriam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mckayRawlins/Netflix-mockup/issues"
+  },
+  "homepage": "https://github.com/mckayRawlins/Netflix-mockup#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
