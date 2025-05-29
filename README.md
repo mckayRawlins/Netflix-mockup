@@ -12,7 +12,8 @@ docker run -d --rm --name mockup -p 8080:8080 netflixmockup:latest
 
 # Docker-compose commands
 
-Endable docker swarm:
+## Endable docker swarm:
+
 docker swarm init
 
 Deploy stack:
