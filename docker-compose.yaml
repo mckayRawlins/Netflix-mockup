@@ -1,0 +1,15 @@
+---
+version: "3.8"
+services:
+  serviceone:
+    image: netflixmockup:latest
+    ports:
+      - "3000:8080"
+    deploy:
+      replicas: 3
+  servicetwo:
+    image: netflixmockup:latest
+    ports:
+      - "3001:8080"
+    deploy:
+      replicas: 2
