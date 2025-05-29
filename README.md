@@ -4,29 +4,36 @@ A Tailwind practice project. Mostly Tailwind was used to present the design show
 
 # Docker commands
 
-Build the image:
+### Build the image:
+
 docker build -t netflixmockup:latest .
 
-Run the image:
+### Run the image:
+
 docker run -d --rm --name mockup -p 8080:8080 netflixmockup:latest
 
 # Docker-compose commands
 
-## Endable docker swarm:
+### Endable docker swarm:
 
 docker swarm init
 
-Deploy stack:
+### Deploy stack:
+
 docker stack deploy -c docker-compose.yaml netflix-stack
 
-List running stacks:
+### List running stacks:
+
 docker stack ls
 
-List services running in the stack:
+### List services running in the stack:
+
 docker stack services netflix-stack
 
-Scale replicas:
+### Scale replicas:
+
 docker service scale netflix-stack\_[service name here]=[desired replicas number]
 
-Remove stack:
+### Remove stack:
+
 docker stack rm netflix-stack
